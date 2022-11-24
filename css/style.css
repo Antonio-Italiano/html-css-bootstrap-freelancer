@@ -1,3 +1,15 @@
+/* Utils */
+[ class^= 'col' ] {
+    min-height: 40px;
+    border: 1px dashed red;
+}
+
+
+
+
+
+
+
 /* Header */
 header {
     height: 40px;
@@ -7,3 +19,14 @@ header {
 nav > * {
     color: #fff;
 }
+
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #1ABC9C;
+}
+
+.jumbotron [ class^= 'col' ] {
+    min-height: 300px;
+    color: #fff;
+} 
