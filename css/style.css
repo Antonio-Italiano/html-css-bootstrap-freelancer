@@ -6,21 +6,23 @@
 
 section {
     margin-bottom: 40px;
+    padding: 20px 0;
+    border: 1px dashed fuchsia;
 }
 
-
-/* Header */
+/* Header  */
 header {
     height: 40px;
     background-color: #2C3E50;
 }
 
+/* Nav */
 nav > * {
     color: #fff;
 }
 
-
-/* Jumbotron */
+/* Sections */
+#about,
 #jumbotron {
     background-color: #1ABC9C;
 }
@@ -30,9 +32,10 @@ nav > * {
     color: #fff;
 } 
 
-/* Portfolio */
+#about [ class^= 'col' ],
+#contact [ class^= 'col' ],
 #portfolio [ class^= 'col' ] {
     min-height: 80px;
-    background-color: aqua;
-
+    border: 2px dashed orangered;
 }
+
