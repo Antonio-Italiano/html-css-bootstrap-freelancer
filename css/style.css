@@ -4,10 +4,9 @@
     border: 1px dashed red;
 }
 
-
-
-
-
+section {
+    margin-bottom: 40px;
+}
 
 
 /* Header */
@@ -22,11 +21,18 @@ nav > * {
 
 
 /* Jumbotron */
-.jumbotron {
+#jumbotron {
     background-color: #1ABC9C;
 }
 
-.jumbotron [ class^= 'col' ] {
+#jumbotron [ class^= 'col' ] {
     min-height: 300px;
     color: #fff;
 } 
+
+/* Portfolio */
+#portfolio [ class^= 'col' ] {
+    min-height: 80px;
+    background-color: aqua;
+
+}
