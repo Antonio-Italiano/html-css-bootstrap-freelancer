@@ -1,7 +1,10 @@
 /* Utils */
 [ class^= 'col' ] {
-    min-height: 40px;
+    min-height: 10px;
     border: 1px dashed red;
+}
+hr {
+    opacity: 1;
 }
 
 section {
@@ -12,14 +15,9 @@ section {
 
 /* Header  */
 header {
-    min-height: 40px;
     background-color: #2C3E50;
 }
 
-/* Nav */
-header nav > * {
-    color: #fff;
-}
 
 /* Sections */
 #about,
@@ -27,14 +25,9 @@ header nav > * {
     background-color: #1ABC9C;
 }
 
-#jumbotron [ class^= 'col' ] {
-    color: #fff;
-} 
-
 #about [ class^= 'col' ],
-#contact [ class^= 'col' ],
-#portfolio [ class^= 'col' ] {
-    min-height: 80px;
+#contact [ class^= 'col' ] {
+    min-height: 20px;
     border: 2px dashed orangered;
 }
 
