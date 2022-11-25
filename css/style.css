@@ -1,8 +1,4 @@
 /* Utils */
-[ class^= 'col' ] {
-    min-height: 10px;
-    border: 1px dashed red;
-}
 hr {
     opacity: 1;
 }
@@ -18,16 +14,16 @@ header {
     background-color: #2C3E50;
 }
 
-
 /* Sections */
 #about,
 #jumbotron {
     background-color: #1ABC9C;
 }
-
-#about [ class^= 'col' ],
+footer [ class^= 'col' ],
+#copyright [ class^= 'col' ],
 #contact [ class^= 'col' ] {
     min-height: 20px;
     border: 2px dashed orangered;
 }
+
 
