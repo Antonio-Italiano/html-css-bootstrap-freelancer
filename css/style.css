@@ -12,12 +12,12 @@ section {
 
 /* Header  */
 header {
-    height: 40px;
+    min-height: 40px;
     background-color: #2C3E50;
 }
 
 /* Nav */
-nav > * {
+header nav > * {
     color: #fff;
 }
 
