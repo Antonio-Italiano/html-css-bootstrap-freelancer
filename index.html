@@ -32,13 +32,13 @@
               <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
                 <ul class="navbar-nav fw-bold">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#portfolio">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">ABOUT</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#about">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">CONTACT</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#contact">CONTACT</a>
                   </li>
                   
                 </ul>
@@ -76,9 +76,9 @@
                 <div class="col-12 text-center">
                     <h3>PORTFOLIO</h3>
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-4"><hr class="border border-2 border-dark"></div>
+                        <div class="col-2"><hr class="border border-2 border-dark"></div>
                         <div class="col-1 d-flex align-items-center justify-content-center"><i class="bi bi-star-fill"></i></div>
-                        <div class="col-4"><hr class="border border-2 border-dark"></div>
+                        <div class="col-2"><hr class="border border-2 border-dark"></div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
@@ -121,9 +121,9 @@
             <div class="row justify-content-center text-white">
                 <div class="col-12 text-center"><h3>ABOUT</h3></div>
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-4"><hr class="border border-2"></div>
+                    <div class="col-2"><hr class="border border-2"></div>
                     <div class="col-1 d-flex align-items-center justify-content-center"><i class="bi bi-star-fill"></i></div>
-                    <div class="col-4"><hr class="border border-2"></div>
+                    <div class="col-2"><hr class="border border-2"></div>
                 </div>
                 <div class="col-12 col-md-5">
                     <p>Freelancer is a free bootstrap theme created by Start
@@ -144,20 +144,32 @@
     </section>
 
     <!-- Contact Me  -->
-    <section id="Contact">
+    <section id="contact">
         <div class="container-sm">
             <div class="row justify-content-center">
-                <div class="col-12 text-center">CONTACT ME</div> 
+                <div class="col-12 text-center"><h3>CONTACT ME</h3></div> 
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-2"><hr class="border border-2 border-dark"></div>
+                    <div class="col-1 d-flex align-items-center justify-content-center"><i class="bi bi-star-fill"></i></div>
+                    <div class="col-2"><hr class="border border-2 border-dark"></div>
+                </div>
                 <div class="col-10">
-                    name
-                    <hr>
-                    email
-                    <hr>
-                    phone
-                    <hr>
-                    message
-                    <hr>
-                    send
+                    <form>
+                        <div class="mb-1">                            
+                            <input type="text" class="form-control rounded-0 border-0 border-bottom ps-0" id="name" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="mb-1">                            
+                            <input type="email" class="form-control rounded-0 border-0 border-bottom ps-0" id="email" placeholder="Email Address" name="email" required>
+                        </div>
+                        <div class="mb-1">                            
+                            <input type="tel" class="form-control rounded-0 border-0 border-bottom ps-0" id="phone" placeholder="Phone Number" name="phone" required>
+                        </div>                        
+                        <div class="mb-1">
+                            <textarea class="form-control rounded-0 border-0 border-bottom ps-0" id="message" placeholder="Message" rows="3"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary border-0" type="submit">Send</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -165,17 +177,37 @@
 
     <footer>
         <div class="container-sm">
-            <div class="row">
-                <div class="col-12 col-md-4">LOCATION</div>
-                <div class="col-12 col-md-4">AROUND THE WEB</div>
-                <div class="col-12 col-md-4">ABOUT FREELANCER</div>
+            <div class="row text-center text-white">
+                <div class="col-12 col-md-4">
+                    <h5>LOCATION</h5>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col-12"><h5>AROUND THE WEB</h5></div>
+                        <div class="col-8 d-flex justify-content-around">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-google"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5>ABOUT FREELANCER</h5>
+                    <p>Frelencer is a free to use, open source Bootstrap theme created by <a href="" class="text-decoration-none">Start Bootstrap</a>.</p>
+                </div>
             </div>
         </div>
     </footer>
     <section id="copyright">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">Copyright</div>
+            <div class="row text-center text-white">
+                <div class="col-12">
+                    <p>Copyright @ Your Website 2019</p> 
+                </div>
             </div>
         </div>
     </section>
